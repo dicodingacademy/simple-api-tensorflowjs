@@ -10,7 +10,7 @@ The topic is about how to create API for machine learning inference.
 The model was made from course "Belajar Machine Learning untuk Pemula" and exported as Keras Model (.h5).
 After that, because this demo is use tensorflowjs, the model should be convert to tensorflow.js model.
 
-Here is the code how to convert keras model (.h5) to tensorflow.js model. 
+Here is the code in Python how to convert keras model (.h5) to tensorflow.js model. 
 Make sure your tensorflow.js already installed on your local computer.
 
 ```python
