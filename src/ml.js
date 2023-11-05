@@ -1,7 +1,7 @@
 const tfjs = require('@tensorflow/tfjs-node');
 
 function loadModel() {
-  const modelUrl = `https://storage.googleapis.com/ml-nodejs/tfjs/model.json`;
+  const modelUrl = `<Your TensorFlow.js Model (.json) from Cloud Storage>`;
   return tfjs.loadLayersModel(modelUrl);
 }
 
